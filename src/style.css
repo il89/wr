@@ -379,8 +379,8 @@ ul#navigation li:hover {
 
 .story .content-box{
   height:460px;
-  margin-top:-260px;
-  margin-top: -78%;
+  /*margin-top:-260px;*/
+  margin-top: -77%;
 }
 
 .story-title {
