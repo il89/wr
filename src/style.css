@@ -1479,7 +1479,7 @@ display: block;
 	}
 	.timeline {
 	    background: none;
-	    height: 400px;
+	    height: 450px;
 	    margin-top: 0;
 	}
 	.heart {
@@ -1684,9 +1684,9 @@ display: block;
 	#inline1 > * {
 	    width: 100% !important;
 	}
-	
+
 	#inline1 {
 	    width: 95% !important;
 	}
-	
+
 }
