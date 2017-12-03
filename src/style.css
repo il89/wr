@@ -1345,6 +1345,7 @@ display: none;
     position: static;
     margin: 0;
     width: 100%;
+    height: 90%;
 }
 .pictures.slide {
     display: flex;
@@ -1479,7 +1480,7 @@ display: block;
 	}
   	.gallery {
 	    width: 100%;
-	    height: 200px;
+	    height: 60%;
 	    padding-left: 5%;
 	}
 	.story-title {
@@ -1539,7 +1540,7 @@ display: block;
 	}
 
 	h2.lang {
-	    line-height: 1.3;
+	    line-height: -0.7;
 	}
 	.rsvp-title {
 	    background-position-x: 50%;
