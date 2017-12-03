@@ -1002,6 +1002,13 @@ ul#navigation li:hover {
   color:#4a4a4a;
   margin-top:15px;
 }
+#message-form{
+  width:200px;
+  height:100px;
+  font-size:25px;
+  color:#4a4a4a;
+  margin-top:15px;
+}
 .submit-container {
   position:relative;
   width:205px;

@@ -567,22 +567,27 @@ _gaq.push(['_trackPageview']);
 
 			<h2 class="lang" key='rsvp'>Tell us if you're coming!</h2>
 
-			<form name="rsvp-now" class="rsvp-now" action="http://www.ilysb8918.com/send.php" method="post" onsubmit="window.open(&#39;&#39;,&#39;my_form_target&#39;, &#39;width=300,height=120&#39;, true); this.target=&#39;my_form_target&#39;;" target="my_form_target">
+			<form name="rsvp-now" class="rsvp-now" action="http://formspree.io/ralvarezecharri@gmail.com" method="post" onsubmit="window.open(&#39;&#39;,&#39;my_form_target&#39;, &#39;width=300,height=120&#39;, true); this.target=&#39;my_form_target&#39;;" target="my_form_target">
 
 				<div class="labels">
 					<label   for="name"><h3 class="your-name lang" key='nombre'>Your Name</h3></label>
 					<label for="email"><h3 class="email lang" key='email'>Email</h3></label>
+					<label for="message"><h3 class="message lang" key='message'>Message</h3></label>
 				</div>
 
 				<div class="forms">
-					<input type="text" name="name" id="name-form" size="45">
-					<input type="text" name="email" id="email-form" size="45">
+  					<input type="name" name="name" placeholder="Your name" id="name-form" size="40">
+  					<input type="email" name="email" placeholder="Your email" id="email-form" size="40">
+  					<input type="message" name="message" placeholder="Your message" id="message-form" size="31">
+
+					<!--<input type="text" name="name" id="name-form" size="45">
+					<input type="text" name="email" id="email-form" size="45">-->
 				</div>
 
 				<div class="submit-container">
-
 					<div class="submit">
-						<input class="submit-btn" type="submit" name="submit" value="submit">
+						<input class="submit-btn" type="submit" value="submit"></input>
+						<!--<input  type="submit" name="submit" >-->
 					</div>
 
 				</div>
